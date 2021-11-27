@@ -13,6 +13,6 @@ jobs:
     - run: |
         echo PR #${{ github.event.number }} has been merged
 
-        curl --location --request POST 'http://a171-103-5-135-70.ngrok.io/merged' \
+        curl --location --request POST 'https://enn078zfxb8q7wa.m.pipedream.net/github' \
         --header 'Content-Type: application/json' \
         --data-raw ${{ github.event }}
