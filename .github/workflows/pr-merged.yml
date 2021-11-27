@@ -15,4 +15,4 @@ jobs:
 
         curl --location --request POST 'https://enn078zfxb8q7wa.m.pipedream.net/github' \
         --header 'Content-Type: application/json' \
-        --data-raw ${{ github.event }}
+        --data-raw #${{ github.event }}
